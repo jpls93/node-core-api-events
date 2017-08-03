@@ -1,5 +1,9 @@
 # node-core-api-events
 
+## Motivation
+### What the f made you want to study this API?
+See https://github.com/expressjs/express/blob/master/lib/express.js
+
 ### Error Handling
 To guard against crashing the Node.js process for `error` events:
 Register a listener(function) to `process`'s `uncaughtException` event.
